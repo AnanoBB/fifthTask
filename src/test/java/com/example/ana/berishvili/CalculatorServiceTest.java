@@ -16,11 +16,12 @@ public class CalculatorServiceTest {
 
     @Test
     void multiplicationTest() {
-        int expected = 72;
+        int expected = 20;
         int actual;
-        actual = calculatorService.multiplication(8, 9);
+        actual = calculatorService.multiplication(10, 2);
         assertEquals(expected, actual);
     }
+}
 
 
 
